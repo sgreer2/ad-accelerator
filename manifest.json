@@ -5,8 +5,6 @@
   "description": "Detects if a video ad is playing, mutes the video and dramatically increases speed.",
   "permissions": [ "scripting"],
   "host_permissions": ["*://*.youtube.com/*","*://www.hulu.com/watch/*"],
-  "background": {
-  },
   "content_scripts": [
     {
         "matches": ["*://*.youtube.com/*"],
